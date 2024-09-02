@@ -1,0 +1,57 @@
+.a {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    height: 40px;
+  }
+  
+  .b {
+    float: left;
+  }
+  
+  .b .c {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    position: relative;
+    left: 500px;
+  }
+  
+  .b .c:hover {
+    background-color: black;
+  }
+  
+
+
+  .grid-container {
+    display: grid;
+    row-gap: 50px;
+    grid-template-columns: auto auto auto;
+    background-color: #ffffff;
+    padding: 10px;
+    
+  }
+  
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    font-size: 30px;
+    text-align: center;
+    width: 100px;
+    object-fit: contain;
+  }
+  .pagee{
+    width: 900px;
+    height: 351px;
+    margin: auto;
+    overflow: auto;
+    background: white;
+}
+  .footerr{
+    width: 1500px;
+    height: 40px;
+    background: rgb(81, 81, 81);
+}

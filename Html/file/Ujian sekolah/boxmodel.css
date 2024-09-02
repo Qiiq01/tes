@@ -1,0 +1,56 @@
+body{
+    background: gray;
+    padding: 20px;
+}
+.marquee{
+    font-size: 20px;
+    color: red;
+    text-align: center;
+}
+.my-div {
+    /* Tata letak div */
+    display: flex;
+    justify-content: left;
+    align-items: left;
+  }
+  
+  .my-button {
+    /* Gaya tombol */
+    background-color: rgb(108, 108, 253);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 10px;
+  }
+  .my-buttons {
+    /* Gaya tombol */
+    background-color: rgb(255, 0, 0);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 10px;
+  }
+  .my-buttond {
+    /* Gaya tombol */
+    background-color: rgb(255, 221, 0);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 10px;
+  }
+  .pagee{
+    width: 900px;
+    height: 351px;
+    margin: auto;
+    overflow: auto;
+    background: white;
+}
+.footerr{
+    width: 900px;
+    height: 40px;
+    background: red;
+    color: yellow;
+}
